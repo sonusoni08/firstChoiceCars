@@ -1,0 +1,30 @@
+body{
+   /* background-image: url("https://i.pinimg.com/originals/42/ec/c8/42ecc80a9d90821a132262a5224bf178.jpg"); */
+   background-image: url("https://i1.wp.com/pngstocks.com/wp-content/uploads/2018/06/tapasheditz20.jpg?zoom=2&resize=780%2C470&ssl=1");
+   /* background-image: url("https://p4.wallpaperbetter.com/wallpaper/375/1004/16/5k-cgi-dark-mountains-wallpaper-preview.jpg"); */
+   text-align: center;
+   font: 1em sans-serif;
+   /* lighting-color: rgb(245, 247, 246); */
+   align-items: center;
+   justify-content: center;
+   display: flex;
+   background-size: cover;
+}
+form{
+   background-color: rgba(0, 255, 255, 0.788);
+   /* background-image: url("https://toppng.com/uploads/preview/doctor-starnge-circle-png-download-doctor-strange-photo-editing-11562852690dzk4nuhz1i.png"); */
+   background-image: url("https://i0.wp.com/zeevector.com/wp-content/uploads/2021/03/Light-color-brochure-background_free-download.jpg?resize=768%2C1086&ssl=1");
+   border-style: solid;
+   border-radius: 10px;
+   border : 1px solid;
+   padding :  10px;
+   border-style: outset;
+   margin-top: 70px;
+   box-shadow: 5px 5px 10px black;
+   background-size: cover;
+   font-weight: bolder;
+   }
+/* html{
+   background: wheat;
+   
+} */
