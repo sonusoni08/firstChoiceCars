@@ -24,7 +24,9 @@ form{
    background-size: cover;
    font-weight: bolder;
    }
-/* html{
-   background: wheat;
-   
-} */
+ @media only screen and (max-width:768px){
+     body{
+        background-size: contain;
+     }
+  
+   } 
