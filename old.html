@@ -5,16 +5,39 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Old Cars</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+   <link href="https://fonts.googleapis.com/css2?family=Merriweather+Sans:ital,wght@1,300&display=swap"
+      rel="stylesheet">
     <style>
         .old
         {
             /* margin-bottom: 20px; */
             padding: 15px 0px 15px;
         }
+        h2,li{
+            /* font-size: large; */
+            font-family: Merriweather Sans;
+        }
+
+        .btn{
+            position: fixed;
+            top: 110px; 
+            right: 46%;
+            background-color: white;
+        }
+
+        @media only screen and (max-width:768px)
+        {
+            .btn{
+                right:38%;
+            }
+        }
+
     </style>
     <link rel="stylesheet" href="first.css">
 </head>
 <body>
+    <button class = "btn button"  style="background-color: white;" ><a href="form_car.html" target="_blank" style="color: black;">Book Yours</a></button>
     <h1 style="background-color: yellowgreen; padding: 10px 0px;">Old Cars</h1>
     <hr style="padding: 2px; background-color: black;">
     <main>
@@ -141,6 +164,7 @@
                 </div>
             </div>
         </div>
+        <br>
     </main>
 </body>
 </html>
