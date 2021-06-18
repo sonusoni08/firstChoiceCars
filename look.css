@@ -9,6 +9,7 @@ body{
    justify-content: center;
    display: flex;
    background-size: cover;
+   background-repeat: no-repeat;
 }
 form{
    background-color: rgba(0, 255, 255, 0.788);
@@ -28,3 +29,9 @@ form{
    background: wheat;
    
 } */
+
+@media only screen and (max-width: 320px) {
+   body {
+       display: inline;
+   }
+}
