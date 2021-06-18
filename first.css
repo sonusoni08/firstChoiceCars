@@ -115,34 +115,7 @@ header
    .foo-div{
       display: flex;
    }
-   @media only screen and (max-width:768px){
-      .new,.old{
-         display: block;
-      }
-      .image{
-         width: 300px;
-      }
-      .nav-ul{
-         display: inline-grid;
-         justify-content: center;
-         text-align: center;
-         width: 100%;
-      }
-    .nav-li{
-       float: none;
-    }
-  
-  
-    .foo-div{
-       display: block;
-    }
-  
-    .copy
-    {
-       font-size: 1rem;
-    }
-  
-   } 
+   
    .marquee
    {
       background-image: url("https://images.unsplash.com/photo-1623946238370-3fdc56d134be?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=889&q=80");
@@ -175,3 +148,39 @@ header
       font-weight: bolder;
       background-color: #FFD700;
    }
+
+
+   @media only screen and (max-width:768px){
+      .new,.old{
+         display: block;
+      }
+      .image{
+         width: 300px;
+      }
+      .nav-ul{
+         display: inline-grid;
+         justify-content: center;
+         text-align: center;
+         width: 100%;
+      }
+    .nav-li{
+       float: none;
+    }
+  
+  
+    .foo-div{
+       display: block;
+    }
+  
+    .copy
+    {
+       font-size: 1rem;
+    }
+  
+   } 
+   @media only screen and (max-width:370px){
+     .image{
+        width: auto;
+     }
+  
+   } 
